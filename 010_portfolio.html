@@ -37,6 +37,18 @@
         padding: 10px;
         margin-top: 20px;
       }
+      .navbar {
+        padding: 40px;
+        height: 75px;
+        background-color: coral;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .nav-link {
+        display: flex;
+        gap: 30px;
+      }
     </style>
     <link
       rel="stylesheet"
@@ -64,9 +76,11 @@
     />
     <div class="navbar">
       <h1>Dev</h1>
-      <a href="">Home</a>
-      <a href="">About</a>
-      <a href="">Contact</a>
+      <div class="nav-link">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+      </div>
     </div>
   </body>
 </html>
