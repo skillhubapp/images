@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        /* overflow: hidden; */
+      }
+      .main {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("bg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left bottom;
+      }
+      .img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100vh;
+      }
+      .head {
+        position: relative;
+        top: 150px;
+        left: 200px;
+        color: white;
+        width: 300px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="head">
+        <h1>Hi Im John</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+          praesentium nemo corporis ipsum, atque fugiat mollitia, recusandae qui
+          itaque eligendi reprehenderit deserunt cum quidem odio, nesciunt
+          perferendis at obcaecati aliquid?
+        </p>
+        <button>Contact Me</button>
+      </div>
+    </div>
+    <img class="img animate__animated animate__tada" src="bg-dots.svg" alt="" />
+    <img
+      class="img animate__animated animate__backInUp"
+      src="user.png"
+      alt=""
+    />
+  </body>
+</html>
