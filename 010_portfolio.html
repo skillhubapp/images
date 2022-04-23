@@ -38,7 +38,9 @@
         margin-top: 20px;
       }
       .navbar {
-        padding: 40px;
+        position: sticky;
+        top: 0;
+        padding: 0px 40px;
         height: 75px;
         background-color: coral;
         display: flex;
@@ -48,6 +50,12 @@
       .nav-link {
         display: flex;
         gap: 30px;
+      }
+      a {
+        color: black;
+      }
+      .dummy {
+        height: 2000px;
       }
     </style>
     <link
@@ -82,5 +90,6 @@
         <a href="">Contact</a>
       </div>
     </div>
+    <div class="dummy"></div>
   </body>
 </html>
